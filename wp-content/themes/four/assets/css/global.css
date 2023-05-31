@@ -1,0 +1,55 @@
+/* 
+#333A7B
+#4B6982
+#70C6C7
+#B4FFD8
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: 'Nunito', sans-serif; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-bold-700 {
+  font-weight: 700;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.text-xl {
+  font-size: 45px;
+}
+
+.text-gray-light {
+  color: #bcbcbc;
+}
+
+.bg-section-gray {
+  background-color: #f3f3f3;
+}

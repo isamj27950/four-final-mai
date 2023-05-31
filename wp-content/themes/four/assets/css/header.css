@@ -1,0 +1,35 @@
+/* header */
+header {
+  background-color: #333A7B;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.nav_padding_left {
+  padding-left: 15px;
+}
+
+nav a:hover {
+  color: #B4FFD8;
+  text-decoration: underline;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  padding-left: 25px;
+}

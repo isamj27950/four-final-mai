@@ -1,0 +1,52 @@
+@import url('global.css');
+@import url('header.css');
+@import url('footer.css');
+
+/* body/content */
+
+main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.title_h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #333A7B;
+}
+
+.box_img {
+ height: 400px;
+ padding-top: 30px;
+ padding-bottom: 40px;
+}
+
+.box_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box_info_recette {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 20px;
+  color: #333A7B;
+  padding-bottom: 50px;
+}
+
+.box_etape_recette {
+  width: 60%;
+  background-color: #efefef;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.box_etape_recette .box_etape {
+  padding-bottom: 30px;
+}
+
+.box_etape_recette .box_etape h2 {
+  padding-bottom: 10px;
+}
